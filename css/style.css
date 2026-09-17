@@ -1,0 +1,234 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    background-color: #ddffc6;
+}
+.header {
+    background-color: #88BFA5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0px 0px 8px 8px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+button:hover {
+background-color: #4CAF50;
+color: white;
+transform: scale(1.1);
+}
+ul, li {
+    list-style-type: none;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    margin-left: 10px;
+}
+.menu li a {
+    display: block;
+    padding: 12px 15px;
+    background-color: #387357;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+.inicial {
+    color: #fff;
+    text-align: center;
+    margin-left: 130px;
+}
+.cachorro, .gato, .passaros, .peixes, .coelho {
+    margin: 0px;
+    padding: 0px;
+    border-color: rgb(0, 8, 8);
+    border-style: double;
+    border-left: 0px;
+    border-right: solid 5px ;
+    border-bottom: solid 1px;
+    border-top: solid 5px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-left: 1px;
+    border-radius: 8px;
+}
+.cachorro h2, .gato h2, .passaros h2, .peixes h2, .coelho h2 {
+    background-color: #88BFA5;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    border: 0px;
+    border-bottom: double;
+}
+.descricao {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #EEE6C0;
+}
+.descricao img {
+    margin: 0px;
+    padding: 0px;
+    border-right: double;
+}
+.tabela-botao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding: 15px;
+    gap: 10px;
+}
+.info {
+    width: 100%;
+    text-align: center;
+}
+.info p {
+    margin: 0px;
+    padding: 5px;
+}
+.cuidados {
+    width: 50%;
+    text-align: left;
+}
+.cuidados h3 {
+    margin: 0px;
+}
+.cuidados ul {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+.cuidados li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+.custo {
+    width: 20%;
+    text-align: center;
+}
+.custo h3 {
+    margin: 0px;
+}
+.custo p {
+    font-weight: bold;
+}
+.link {
+    width: 20%;
+    text-align: center;
+}
+.link h3 {
+    margin: 0px;
+}
+.link a {
+    display: block;
+    background-color: #387357;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.descricao table {
+    border: 5px;
+    border-style: solid;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 390px;
+    background-color: #d2fddd;
+    border-radius: 10px;
+    border-spacing: 0px;
+}
+.tabela-botao button {
+    background-color: #387357;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    width: 200px;
+    height: 125px;
+    font-size: 40px;
+    text-align: center;
+    color: #3ddfa9;
+}
+th, td {
+    border: 1px;
+    border-style: double;
+    padding: 3px;
+}
+.forms {
+    text-align: center;
+    background-color: #EEE6C0;
+    border-color: rgb(255, 255, 255);
+    border: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 100px;
+    padding-top: 0px;
+    margin-top: 20px;
+    border-top: 0px;
+}
+.forms h3 {
+    background-color: #88BFA5;
+    border: 2px black solid;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #000000;
+}
+.forms h1 {
+    background-color: #88BFA5;
+    border: 2px black solid;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+form {
+    text-align: left;
+    margin: 10px;
+}
+.escrita {
+    width: 500px;
+    align-self: center;
+}
+.junto {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 2px black solid;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.junto h2 {
+    background-color: #88BFA5;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+}
+.conteudo {
+    background-color: #EEE6C0;
+    padding: 20px;
+    text-align: center;
+}
+.conteudo h3 {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.conteudo p {
+    margin: 25px 15px;
+    line-height: 1.4;
+}
+input, textarea {
+    width: 100%;
+    height: 20px;
+    background-color:rgb(245, 247, 247);
+    opacity: 0.45;
+    border: solid 2px black;
+}
