@@ -232,3 +232,16 @@ input, textarea {
     opacity: 0.45;
     border: solid 2px black;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #387357;
+    color: white;
+}
+footer p {
+    margin: 8px 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    }
